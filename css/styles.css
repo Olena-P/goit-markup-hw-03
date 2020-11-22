@@ -1,0 +1,206 @@
+:root{
+    --primary-texst-color: rgba(117, 117, 117, 1);
+    --title-texst-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #FFFFFF;  
+}
+
+
+body {
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+}
+
+main{
+    background-color: var(--primary-white-color);
+}
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+
+a { 
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+}
+
+/*============ HEADER ============*/
+.site-nav-link{
+    color: var(--title-texst-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    }
+.site-nav-link:hover,
+.site-nav-link:focus{
+    color: var(--accent-color);
+}
+
+.site-nav-link.mail{
+    color: #757575;
+}
+
+.site-nav-link.number{
+    color: #757575;
+}
+
+.logo{
+    color: var(--title-texst-color);
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px; 
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.2;
+ }
+ .logo-accent{
+     color: var(--accent-color);
+ }
+ 
+ /*============  END HEADER ============*/
+
+
+
+ 
+/* ============= Button=========*/
+.button{
+    color: var(--title-texst-color);
+    background-color: var(--primary-white-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+}
+
+.button.primary:hover,
+.button.primary:focus{
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+/* =============  END Button =========*/
+
+/*============== Hero ==============*/
+/* Геометрия */
+
+
+    /* Оформление текста и цвета */
+.hero-title{
+    color: var(--primary-white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+}
+.hero{
+    background: #2F303A; 
+}
+    /* динамика */
+/*============== END Hero ==============*/
+
+
+/*================= Section 1============= */
+.section-title{
+    color: var(--title-texst-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+
+}
+
+.future-list .text{
+    font-style: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--primary-texst-color);
+}
+
+/*================= END Section 1============= */
+
+/*================= Section 2============= */
+
+.section-images-title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--title-texst-color);
+}
+/*================= END Section 2============= */
+
+/*================= Section 3============= */
+.section-team-title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--title-texst-color);
+}
+
+.team-title-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--title-texst-color);
+}
+.team-title-skills{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: var(--primary-texst-color);
+}
+
+/*================= ENd Section 3============= */
+
+
+/*============ FOOTER ============*/
+
+.footer-list-link:hover,
+.footer-list-link:focus{
+    color: var(--accent-color);
+}
+
+.footer-list-link.address:hover,
+.footer-list-link.address:focus{
+    color: var(--accent-color);
+}
+.footer{
+    background: #2F303A;
+}
+.footer-list-link{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-style: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: rgba(255, 255, 255, 0.6);
+
+}
+.footer-list-link.address{
+    color: var(--primary-white-color);
+}
+.footer-logo{
+    color: var(--primary-white-color);
+}
+
+/*============ END FOOTER ============*/
+
+/*================= PORTFOLIO============= */
+.force-name{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-texst-color);
+
+}
+.force-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: var(--primary-texst-color);
+}
+/*=================  END PORTFOLIO============= */
