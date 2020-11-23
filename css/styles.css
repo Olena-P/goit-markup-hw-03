@@ -58,7 +58,7 @@ a {
      color: var(--accent-color);
  }
  
- /*============  END HEADER ============*/
+/*============  END HEADER ============*/
 
 
 
@@ -77,7 +77,6 @@ a {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
 }
-
 /* =============  END Button =========*/
 
 /*============== Hero ==============*/
@@ -91,6 +90,7 @@ a {
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
+    text-transform: uppercase;
 }
 .hero{
     background: #2F303A; 
@@ -106,7 +106,6 @@ a {
     font-size: 14px;
     line-height: 16px;
     text-transform: uppercase;
-
 }
 
 .future-list .text{
@@ -144,6 +143,7 @@ a {
     line-height: 19px;
     color: var(--title-texst-color);
 }
+
 .team-title-skills{
     font-weight: 400;
     font-size: 16px;
@@ -165,9 +165,11 @@ a {
 .footer-list-link.address:focus{
     color: var(--accent-color);
 }
+
 .footer{
     background: #2F303A;
 }
+
 .footer-list-link{
     font-family: Roboto;
     font-style: normal;
@@ -176,11 +178,12 @@ a {
     font-size: 14px;
     line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
-
 }
+
 .footer-list-link.address{
     color: var(--primary-white-color);
 }
+
 .footer-logo{
     color: var(--primary-white-color);
 }
@@ -194,8 +197,8 @@ a {
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--title-texst-color);
-
 }
+
 .force-text{
     font-weight: 400;
     font-size: 16px;
