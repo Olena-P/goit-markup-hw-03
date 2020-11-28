@@ -77,7 +77,7 @@ a {
 } */
 
 .header{
-    padding-top: 32;
+    padding-top: 32px;
     border: 1px solid #ECECEC;
 }
 
@@ -346,6 +346,9 @@ a {
 
 .footer{
     background: #2F303A;
+    height: 252px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .footer-list-link{
