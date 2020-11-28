@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
-        <div class="navigation">
+    <header class="header">
+        <div class="container">
             <nav class="site-nav">
                 <a href="./index.html" class="logo" aria-label="логотип сайта" lang="en"><span class="logo-accent">Web</span>Studio</a>
                 <ul class="site-nav-list">
@@ -19,7 +19,7 @@
                     <li class="item"><a href="./portfolio.html" class="site-nav-link">Портфолио</a></li>
                     <li class="item"><a href="" class="site-nav-link">Контакты</a></li>
                 </ul>
-                <ul class="site-nav-list">
+                <ul class="site-nav-list-address">
                     <li class="item"><a href="info@devstudio.com" class="site-nav-link mail">info@devstudio.com</a></li>
                     <li class="item"><a href="mailto:tel:+380961111111" class="site-nav-link number">+38 096 111 11 11</a></li>
                 </ul>  
@@ -27,7 +27,7 @@
         </div>
     </header>
     <main>
-        <section>
+        <section class="portfolio">
             <h1 hidden="tru">Портфолио</h1>
             <div class="container">
                 <ul class="line-button">
@@ -43,77 +43,102 @@
                     <li>
                         <button type="button" class="button primary secondary">Дизайн</button> 
                     </li>
-                    <l>
+                    <li>
                         <button type="button" class="button primary secondary">Маркетинг</button>
                     </li>
                 </ul>
 
-                <ul class="list ">
-                    <li>
+                <ul class="flex-container">
+                    <li class="portfolio-list">
                         <a href="">
                             <img src="images/img11.jpg" alt="Технокряк">
-                            <h2 class="force-name">Технокряк</h2>
-                            <p class="force-text" >Веб-сайт</p>
+                            <div class="portfolio-info">
+                                <h2 class="force-name">Технокряк</h2>
+                                <p class="force-text" >Веб-сайт</p>
+                            </div>
                         </a>
                     </li>
-                    <li>
+
+                    <li class="portfolio-list">
                         <a href="">
                             <img src="images/img22.jpg" alt="Постер New Orlean vs Golden Star">
-                            <h2 class="force-name">Постер <span lang="en">New Orlean vs Golden Star</span>
-                            </h2>
-                            <p class="force-text">Дизайн</p>
+                            <div class="portfolio-info">
+                                <h2 class="force-name">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
+                                <p class="force-text">Дизайн</p>
+                            </div>
                         </a>
-                    
                     </li>
-                    <li>
+
+                    <li class="portfolio-list">
                         <a href="">
                             <img src="images/img33.jpg" alt="Ресторан Seafood">
-                            <h2 class="force-name">Ресторан <span lang="en">Seafood</span></h2>
-                            <p class="force-text">Приложение</p>
+                            <div class="portfolio-info">
+                                <h2 class="force-name">Ресторан <span lang="en">Seafood</span></h2>
+                                <p class="force-text">Приложение</p>
+                            </div>
                         </a>
-                    </a>
-                    <li>
+                    </li>
+
+                    <li class="portfolio-list">
                         <a href="">
                             <img src="images/img44.jpg" alt="Проект Prime">
-                            <h2 class="force-name">Проект <span lang="en">Prime</span> </h2>
-                            <p class="force-text">Маркетинг</p>
+                            <div class="portfolio-info">
+                                <h2 class="force-name">Проект <span lang="en">Prime</span> </h2>
+                                <p class="force-text">Маркетинг</p>
+                            </div>
                         </a>
                     </li>
-                    <li>
+
+                    <li class="portfolio-list">
                         <a href="">
                             <img src="images/img55.jpg" alt="Проект Boxes">
-                            <h2 class="force-name">Проект <span lang="en">Boxes</span></h2>
-                            <p class="force-text" >Приложение</p>
+                            <div class="portfolio-info">
+                                    <h2 class="force-name">Проект <span lang="en">Boxes</span></h2>
+                                <p class="force-text" >Приложение</p>
+                            </div>
                         </a>
                     </li>
-                    <li>
+
+                    <li class="portfolio-list">
                         <a href="">
                             <img src="images/img66.jpg" alt="Inspiration has no Borders">
-                            <h2 lang="en"class="force-name">Inspiration has no Borders</h2>
-                            <p class="force-text" >Веб-сайт</p>
+                            <div class="portfolio-info">
+                                    <h2 lang="en"class="force-name">Inspiration has no Borders</h2>
+                                <p class="force-text" >Веб-сайт</p>
+                            </div>
                         </a>
                     </li>
-                    <li>
+
+                    <li class="portfolio-list">
                         <a href="">
                             <img src="images/img77.jpg" alt="Издание Limited Edition">
-                            <h2 class="force-name">Издание <span lang="en"> Limited Edition</span></h2>
-                            <p class="force-text">Дизайн</p>
+                            <div class="portfolio-info">
+                                <h2 class="force-name">Издание <span lang="en"> Limited Edition</span></h2>
+                                <p class="force-text">Дизайн</p>
+                            </div>
                         </a>
                     </li>
-                    <li>
+
+                    <li class="portfolio-list">
                         <a href="">
                             <img src="images/img88.jpg" alt="Проект LAB">
-                            <h2 class="force-name">Проект <span lang="en">LAB</span></h2>
-                            <p class="force-text" >Маркетинг</p>
+                            <div class="portfolio-info">
+                                <h2 class="force-name">Проект <span lang="en">LAB</span></h2>
+                                <p class="force-text" >Маркетинг</p>
+                            </div>
                         </a>
                     </li>
-                    <li>
+
+                    <li class="portfolio-list">
                         <a href="">
                             <img src="images/img99.jpg" alt="Growing Business">
-                            <h2 lang="en"class="force-name">Growing Business</h2>
-                            <p class="force-text" >Приложение</p>
+                            <div class="portfolio-info">
+                                <h2 lang="en"class="force-name">Growing Business</h2>
+                                <p class="force-text" >Приложение</p>
+                            </div>
                         </a>
                     </li>
+
                 </ul>
         </section>
     </main>
