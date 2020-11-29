@@ -75,6 +75,7 @@ a {
 .header{
     padding-top: 32px;
     border-bottom: 1px solid #ECECEC;
+    background-color: var(--primary-white-color);
 }
 
 .header .line{
@@ -148,7 +149,7 @@ a {
 }
 
 .hero{
-    background: #2F303A; 
+    background-color: #2F303A; 
     border: 1px solid transparent;
     min-height: 600px;
     padding-top: 200px;
@@ -227,6 +228,7 @@ a {
 .section-skills{
     padding-top: 94px;
     padding-bottom: 94px;
+    background-color: #E5E5E5;
 }
 
 /*================= END Section 1============= */
@@ -253,7 +255,7 @@ a {
 }
 
 .section-images{
-    background-color: var(--primary-background-color);
+    background-color: #E5E5E5;
 }
 
 .section-skills{
@@ -381,6 +383,13 @@ a {
 .site-nav-link.number{
     color: #757575;
 }
+
+.footer-list-address{
+    margin-top: 20px;
+ }
+ .footer-address{
+    margin-top: 9px;
+ }
 
 /*============ END FOOTER ============*/
 
