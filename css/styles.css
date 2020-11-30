@@ -226,6 +226,7 @@ a {
 .section-skills{
     padding-top: 94px;
     padding-bottom: 94px;
+    background-color: white;
 }
 
 /*================= END Section 1============= */
@@ -255,9 +256,6 @@ a {
     padding-bottom: 94px;
 }
 
-.section-skills{
-    background-color: var(--primary-background-color);
-}
 
 /*================= END Section 2============= */
 
