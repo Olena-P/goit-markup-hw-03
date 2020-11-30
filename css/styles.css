@@ -226,7 +226,6 @@ a {
 .section-skills{
     padding-top: 94px;
     padding-bottom: 94px;
-    background-color: #E5E5E5;
 }
 
 /*================= END Section 1============= */
@@ -253,7 +252,6 @@ a {
 }
 
 .section-images{
-    background-color: #E5E5E5;
     padding-bottom: 94px;
 }
 
@@ -280,7 +278,6 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* background-color: #FFFFFF; */
     padding-top: 50px;
 }
 
@@ -408,7 +405,6 @@ a {
 }
 
 .portfolio{
-    background-color: #E5E5E5;
     padding-bottom: 94px;
     padding-top: 94px;
 }
