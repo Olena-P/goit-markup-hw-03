@@ -19,8 +19,8 @@ ul{
 body {
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
-    padding-left: 15px;
-    padding-right: 15px;
+    /* padding-left: 15px;
+    padding-right: 15px; */
 }
 
 main{
@@ -98,6 +98,10 @@ a {
 
 .site-nav-link:hover,
 .site-nav-link:focus{
+    color: var(--accent-color);
+}
+
+.current{
     color: var(--accent-color);
 }
 
@@ -255,7 +259,6 @@ a {
 .section-images{
     padding-bottom: 94px;
 }
-
 
 /*================= END Section 2============= */
 
